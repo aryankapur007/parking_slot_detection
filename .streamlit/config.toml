@@ -1,3 +1,7 @@
 [theme]
 base="dark"
 font="monospace"
+[runner]
+fastReruns = true
+[client]
+showErrorDetails = true
