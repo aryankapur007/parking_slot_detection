@@ -3,6 +3,7 @@ import cv2
 import sys
 import numpy as np
 from PIL import Image
+import os
 
 # Ensure the parent directory is in the sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
