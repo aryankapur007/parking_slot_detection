@@ -3,7 +3,6 @@ import cv2
 import sys
 import numpy as np
 from PIL import Image
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from utils import load_model, get_predictions, draw_boxes
 def appp():
 
