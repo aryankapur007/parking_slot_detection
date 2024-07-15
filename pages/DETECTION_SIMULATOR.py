@@ -1,8 +1,8 @@
 import streamlit as st
 import numpy as np
 from PIL import Image
-import os
-# Ensure the parent directory is in the sys.path
+import torch
+from ultralytics import YOLO 
 from utils import load_model, get_predictions, draw_boxes
 
 
