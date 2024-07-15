@@ -6,7 +6,7 @@ from PIL import Image
 import os
 
 # Ensure the parent directory is in the sys.path
-from ..utils import load_model, get_predictions, draw_boxes
+from parking_slot_detection.utils import load_model, get_predictions, draw_boxes
 
 def appp():
 
