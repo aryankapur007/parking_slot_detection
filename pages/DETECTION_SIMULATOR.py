@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 import os
-import cv2
+
 import torch
 from ultralytics import YOLO
 # Ensure the parent directory is in the sys.path
